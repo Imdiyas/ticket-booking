@@ -1,0 +1,50 @@
+.seat-booking-container {
+  padding: 20px;
+}
+
+.seat-booking-heading {
+  margin-bottom: 10px;
+}
+
+.bus-image {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.seat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+  margin-top: 20px;
+}
+
+.seat-button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+  background-color: lightgray;
+  transition: background-color 0.3s ease;
+}
+
+.seat-button.selected {
+  background-color: red;
+  color: white;
+}
+
+.continue-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.continue-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
